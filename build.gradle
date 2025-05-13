@@ -28,7 +28,6 @@ dependencies {
 
 bootRun {
     jvmArgs = [
-        '-XX:+UseShenandoahGC',
         '-Xms4g',
         '-Xmx4g'
     ]
